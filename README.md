@@ -5,7 +5,7 @@
 * Unduh & Install Termux [`Klik Disini`](https://f-droid.org/repo/com.termux_118.apk)
 ### Instalation on Termux & Running
 ```makefile
-pkg update && pkg upgrade && pkg install git && pkg install openssl && pkg install bash && git clone https://github.com/Wildev26/subdomain.git && cd subdomain && chmod x+ *
+pkg update && pkg upgrade && pkg install git && pkg install openssl && pkg install bash && git clone https://github.com/Wildev26/subdomain.git && cd subdomain && chmod +x *
 ```
 ## UNTUK MENJALAKAN COPY PERINTAH
 ```makefile
