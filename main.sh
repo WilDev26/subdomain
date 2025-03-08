@@ -1,46 +1,6 @@
-#!/bin/bash
+# Encrypted by K-fuscator
+# Github- https://github.com/KasRoudra/k-fuscator
 
-# Banner Keren
-echo -e "\e[1;36m"
-cat << "EOF"
-
-  ____                                            
- |  _ \ _ __  ___   ___  ___ __ _ _ __   ___ _ __ 
- | | | | '_ \/ __| / __|/ __/ _` | '_ \ / _ \ '__|
- | |_| | | | \__ \ \__ \ (_| (_| | | | |  __/ |   
- |____/|_| |_|___/ |___/\___\__,_|_| |_|\___|_|   
-                                                  
-
-EOF
-echo -e "\e[0m"
-echo -e "\e[1;32mSubdomain Finder \e[0m"
-echo -e "\e[1;33mCreated by: Bagas Oscarius\e[0m"
-echo ""
-
-# Fungsi untuk mencari subdomain
-find_subdomains() {
-    local domain=$1
-    echo -e "\e[1;34m[*] Searching for subdomains of $domain...\e[0m"
-
-    # Menggunakan API DNSDumpster (non-resmi)
-    response=$(curl -s "https://api.hackertarget.com/hostsearch/?q=$domain")
-
-    if [[ $response == *"error"* ]]; then
-        echo -e "\e[1;31m[!] Error: Unable to fetch subdomains. Please check your domain or try again later.\e[0m"
-    else
-        echo -e "\e[1;32m[+] Subdomains found:\e[0m"
-        echo "$response" | awk -F, '{print $1}'
-    fi
-}
-
-# Input domain
-read -p "Enter the domain (e.g., example.com): " domain
-
-# Validasi input
-if [[ -z "$domain" ]]; then
-    echo -e "\e[1;31m[!] Error: Domain cannot be empty.\e[0m"
-    exit 1
-fi
-
-# Panggil fungsi untuk mencari subdomain
-find_subdomains "$domain"
+z="
+";RCz='o fe';CDz='he d';QCz='le t';PBz='"';Dz='1;36';QBz=' ""';cBz='rchi';aBz='m[*]';tBz='rget';fBz='ubdo';dCz='agai';lBz='=$(c';kz='(_| ';Lz=' __ ';nCz=' "$r';qBz='api.';bCz=' or ';rCz='F, '\''';JBz=' by:';gz='| |_';hCz='else';dz=' _ \';OCz='or: ';WDz=' 1';HDz='): "';Zz=' __/';BDz='er t';OBz='e[0m';DBz='inde';JCz=' the';sCz='{pri';Xz='| / ';sBz='erta';XDz='"$do';DDz='n (e';rz='__,_';vCz='fi';CBz='in F';iCz='m[+]';HCz='or"*';XCz='se c';wz='EOF';lz=' |';kBz='onse';yBz='?q=$';Qz='__ _';yCz=' -p ';GCz='"err';Bz=' -e ';Mz=' ___';TBz='ins(';hBz=' $do';Tz='_ __';KBz=' Bag';KDz='[ -z';EBz='r \e';QDz='in c';MCz='m[!]';Ez='m"';SCz='tch ';FBz='[0m"';RBz='find';nz='_/|_';xz='0m"';yz='1;32';GDz='mple';FCz='== *';IDz=' dom';LBz='as O';Uz='| | ';qCz='wk -';lCz='foun';bBz=' Sea';Jz='|  _';UCz='omai';pCz=' | a';VCz='ns. ';Sz='_   ';TCz='subd';uCz='1}'\''';tCz='nt $';Vz=''\''_ \';gBz='s of';BCz='if [';FDz=' exa';BBz='doma';qz='___\';mz='|___';hz='\__ ';tz='|_|\';Az='echo';Cz='"\e[';Pz='___ ';HBz='mCre';CCz='[ $r';UBz=') {';vBz='/hos';RDz='anno';jz='_ \ ';Oz='__  ';Hz='EOF"';fCz='ter.';oz='/ |_';VDz='exit';oCz='nse"';Kz=' \ _';xCz='read';uBz='.com';kCz='ins ';Nz='   _';SDz='t be';sz='|_| ';eCz='n la';ICz=' ]];';LCz='1;31';nBz='-s "';bz='| '\''_';gCz='\e[0';GBz='1;33';pBz='s://';ADz='"Ent';fz='|';oBz='http';ECz='nse ';Iz='____';YBz='=$1';WBz='l do';YCz='heck';iz='\ \_';Rz=' _ _';cCz='try ';NDz=']; t';ACz='in")';dBz='ng f';az=' _` ';NBz='ius\';UDz='ty.\';ZBz='1;34';Gz='<< "';MBz='scar';jCz=' Sub';mBz='url ';aCz='r do';PDz='Doma';SBz='_sub';JDz='ain';TDz=' emp';XBz='main';Yz='__|/';Wz='/ __';PCz='Unab';DCz='espo';mCz='d:\e';vz='_|';KCz='n';wCz='}';iBz='...\';xBz='rch/';cz=' \ /';rBz='hack';wBz='tsea';uz='___|';VBz='loca';ODz='hen';ABz='mSub';eBz='or s';IBz='ated';pz='__/\';EDz='.g.,';ZCz=' you';WCz='Plea';Fz='cat ';ez=' '\''__';jBz='resp';LDz=' "$d';NCz=' Err';MDz='n" ]';
+eval "$Az$Bz$Cz$Dz$Ez$z$Fz$Gz$Hz$z$Iz$z$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Pz$Tz$z$Uz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$z$gz$Uz$Uz$hz$iz$jz$kz$kz$Uz$Uz$Zz$lz$z$mz$nz$gz$mz$oz$pz$qz$rz$sz$tz$uz$vz$z$wz$z$Az$Bz$Cz$xz$z$Az$Bz$Cz$yz$ABz$BBz$CBz$DBz$EBz$FBz$z$Az$Bz$Cz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$z$Az$QBz$z$RBz$SBz$BBz$TBz$UBz$z$VBz$WBz$XBz$YBz$z$Az$Bz$Cz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$XBz$gBz$hBz$XBz$iBz$OBz$PBz$z$jBz$kBz$lBz$mBz$nBz$oBz$pBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$BBz$ACz$z$BCz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$z$Az$Bz$Cz$LCz$MCz$NCz$OCz$PCz$QCz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$XBz$bCz$cCz$dCz$eCz$fCz$gCz$Ez$z$hCz$z$Az$Bz$Cz$yz$iCz$jCz$BBz$kCz$lCz$mCz$FBz$z$Az$nCz$DCz$oCz$pCz$qCz$rCz$sCz$tCz$uCz$z$vCz$z$wCz$z$xCz$yCz$ADz$BDz$CDz$UCz$DDz$EDz$FDz$GDz$uBz$HDz$IDz$JDz$z$BCz$KDz$LDz$UCz$MDz$NDz$ODz$z$Az$Bz$Cz$LCz$MCz$NCz$OCz$PDz$QDz$RDz$SDz$TDz$UDz$OBz$PBz$z$VDz$WDz$z$vCz$z$RBz$SBz$BBz$kCz$XDz$XBz$PBz"
