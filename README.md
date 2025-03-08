@@ -5,11 +5,11 @@
 * Unduh & Install Termux [`Klik Disini`](https://f-droid.org/repo/com.termux_118.apk)
 ### Instalation on Termux & Running
 ```makefile
-pkg update && pkg upgrade && pkg install git && pkg install openssl && pkg install bash && git clone https://github.com/Wildev26/subdomain.git && cd subdomain && chmod +x *
+pkg update && pkg upgrade && pkg install git && pkg install openssl && pkg install bash && git clone https://github.com/Wildev26/subdomain.git && cd subdomain
 ```
 ## UNTUK MENJALAKAN COPY PERINTAH
 ```makefile
-./main
+bash main.sh
 ```
 ## BUG LAPORKAN
 <a href="https://t.me/Willly21" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a>
