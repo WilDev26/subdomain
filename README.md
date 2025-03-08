@@ -1,6 +1,6 @@
 # SUBDOMAIN-FINDER
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=SUB-DOMAIN-FIND)](https://git.io/typing-svg)
-<img src="https://github.com/WilDev26/Dns-Ip-cloudflare/blob/main/img/Screenshot_20250306-023656_1.png"/>
+<img src="https://github.com/WilDev26/subdomain/blob/1a7424e2279d6847165cca15db4a64e93ec863f1/demo/demo.gif"/>
 ## DOWNLOAD TERMUX FDROID
 * Unduh & Install Termux [`Klik Disini`](https://f-droid.org/repo/com.termux_118.apk)
 ### Instalation on Termux & Running
